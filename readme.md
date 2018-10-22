@@ -6,6 +6,8 @@ This project will be built in stages, each is meant to build on top of each othe
 
 ## Database Structure
 Our transaction database will be made up of two tables. A users table and a transactions table. Here's what columns these tables should contain:
+
+
 **Users**
 - id
 - email
