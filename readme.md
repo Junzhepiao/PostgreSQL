@@ -6,14 +6,14 @@ This project will be built in stages, each is meant to build on top of each othe
 
 ## Database Structure
 Our transaction database will be made up of two tables. A users table and a transactions table. Here's what columns these tables should contain:
-*Users*
+**Users**
 - id
 - email
 - password
 - created_at
 - updated_at
 
-*Transactions*
+**Transactions**
 - id
 - user_id
 - amount
@@ -37,4 +37,4 @@ You have full freedom to use whatever database you want for this but here's some
 - The columns intentionally don't have a data type listed. Try different types and see how it effects your times.
 - research research research. Make sure you understand why things are improving speed.
 
-**IMPORTANT FINAL NOTE** - PLEASE KEEP TRACK OF HOW YOUR TIME IMPROVES AND WHAT YOU DID TO IMPROVE IT EACH TIME. You'll use this data to present to the class. 
+**IMPORTANT FINAL NOTE** - PLEASE KEEP TRACK OF HOW YOUR TIME IMPROVES AND WHAT YOU DID TO IMPROVE IT EACH TIME. You'll use this data to present to the class.
