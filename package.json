@@ -1,0 +1,28 @@
+{
+  "name": "transaction-app-db",
+  "version": "1.0.0",
+  "description": "We're getting the ball rolling on our transaction tracking application. The goal of this application is to allow users to log in and track transactions that they've made. This could be used for a variety of things from expense reporting to just keeping yourself accountable. The application itself is fairly simple. The difficult part of this project is creating an architecture that could handle millions of users using the application daily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junzhepiao/transaction-app-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junzhepiao/transaction-app-db/issues"
+  },
+  "homepage": "https://github.com/Junzhepiao/transaction-app-db#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "pg": "^7.8.1",
+    "save": "^2.3.3"
+  }
+}
